@@ -2,9 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 var myDb = require('../db');
-// route.get('/', funtion(req, res) {
-//   res.send("Hello!");
-// });
+router.get('/', function(req, res) {
+  res.send("Hello!");
+});
 
 var dbname = "imagineCupLaw";
 
