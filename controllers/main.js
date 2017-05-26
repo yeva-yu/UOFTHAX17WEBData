@@ -4,9 +4,9 @@ var router = express.Router();
 var myDb = require('../db');
 var dbname = "Law";
 
-route.get('/', funtion(req, res) {
-  res.send("Hello!");
-});
+// route.get('/', funtion(req, res) {
+//   res.send("Hello!");
+// });
 
 router.get('/data/', function(req, res) {
   console.log(req.query);
