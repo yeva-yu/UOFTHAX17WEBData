@@ -4,7 +4,7 @@ var app = express();
 
 app.use('/', require('./controllers/main'));
 
-var url = 'mongodb://yevayu:yaj3ecbG1aOpwYsjKl5p7vtT0S72RnzDK5xcTctj12PD1gXrx8I2zUYwEVwghjntalGzxkhUvBhF9lk9xOlwyA==@yevayu.documents.azure.com:10255/?ssl=true&replicaSet=globaldb';
+var url = 'mongodb://yevayu:yaj3ecbG1aOpwYsjKl5p7vtT0S72RnzDK5xcTctj12PD1gXrx8I2zUYwEVwghjntalGzxkhUvBhF9lk9xOlwyA==@yevayu.documents.azure.com:10255/?ssl=true';
 console.log('Initiating connection...');
 db.connect(url, function(err, db) {
   if (err) {
